@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap");
+body {
+  background-color: #000;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #000;
+  z-index: 9999;
+}
+#header > h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Ruda;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 0px; /* 0% */
+  letter-spacing: 1.74px;
+  padding-left: 4%;
+}
+#header > .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  padding-top: 15px;
+}
+#header > .menu > span {
+  color: #fff;
+  text-align: center;
+  font-family: Ruda;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 0px;
+  padding-right: 4%;
+  padding-top: 2%;
+  margin-top: 2%;
+}
+#header > .icon {
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.insta {
+  background: url("/Rectangle\ 12.png");
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+  width: 62.331px;
+  height: 43.122px;
+  transform: rotate(179.857deg);
+  flex-shrink: 0;
+}
+.facebook {
+  background: url("/image\ 5.png");
+  width: 52px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.whatsapp {
+  background: url("/image\ 4.png");
+  width: 47px;
+  height: 51px;
+  flex-shrink: 0;
+}
+
+.tsection {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(39, 39, 39, 0.05) 0.01%,
+    rgba(31, 31, 31, 0.05) 0.02%,
+    rgba(0, 0, 0, 0.06) 13.02%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+  background: url("/pizza1\ 1.png"), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 1786px;
+  height: 1017px;
+}
+
+.tsection #midhead h1 {
+  color: #fff;
+  width: 902px;
+  height: 215px;
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 101px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 108.5px;
+  letter-spacing: 9.09px;
+}
+
+#lastmidhead {
+  width: 599px;
+  height: 325px;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 25px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2.25px;
+}
+hr {
+  width: 586px;
+  height: 13px;
+  background: #f24c4c;
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle3 {
+  background: #f24c4c;
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+  width: 586px;
+  height: 13px;
+}
+
+.aboutsection1 {
+  color: #fff;
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+}
+.aboutsection2 {
+  color: white;
+  margin-top: 5%;
+  display: flex;
+  padding: 15px 50px;
+  justify-content: space-around;
+}
+.aboutsection2 p {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 19px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2.25px;
+  width: 535px;
+}
+.aboutsection2 > img {
+  width: 631px;
+  height: 506px;
+  border-radius: 10px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 74.48%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("/dough-3082589_1920\ 1.png"), lightgray 50% / cover no-repeat;
+}
+.aboutsection1 > hr {
+  background: #b62828;
+  width: 526px;
+  height: 10px;
+}
+.aboutsection2 > hr {
+  width: 535px;
+  height: 4px;
+  background: #f24c4c;
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+}
+
+.menu > .para {
+  width: 1315px;
+  height: 378px;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 25px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2.25px;
+  padding-left: 100px;
+}
+
+.menulist {
+  display: flex;
+  color: white;
+  gap: 20px;
+}
+.menulist img {
+  width: 274px;
+  height: 200px;
+  margin-bottom: 8%;
+}
+.menulist h6 {
+  color: #f2c94c;
+  font-family: Ruda;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 0px;
+  display: flex;
+  width: 348px;
+  height: 51px;
+  flex-direction: column;
+  justify-content: center;
+}
+.menulist p {
+  width: 346px;
+  height: 120px;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1.8px;
+}
+.listmenu {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+
+  margin-left: 8%;
+}
+
+.itemslist {
+  width: 1334px;
+  height: 638px;
+  margin-left: 7%;
+}
+
+.gallary {
+  margin-left: 10vw;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+}
+
+#firstimg {
+  width: 786px;
+  height: 613px;
+  gap: 50px;
+  border-radius: 10px;
+}
+#secondimg {
+  width: 274px;
+  height: 200px;
+  gap: 50px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#thirdimg {
+  width: 274px;
+  height: 302px;
+  border-radius: 10px;
+}
+
+.findus {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 50vh;
+  margin-left: 15%;
+  margin-top: 5%;
+  color: #ffffff;
+}
+#helperlocation > .info {
+  width: 640px;
+  height: 181px;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2.25px;
+}
+#helperlocation > .contact {
+  width: 487px;
+  height: 43px;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 1.8px;
+}
+
+footer {
+  padding: 10px 15px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+footer > .group {
+  width: 202.795px;
+  height: 148.962px;
+  background: url("/Group.png");
+}
+
+footer > .idmail {
+  width: 551px;
+  height: 20px;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1.8px;
+}
+footer > .contact {
+  width: 551px;
+  height: 47px;
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.8px;
+}
