@@ -49,7 +49,7 @@ nav {
   cursor: pointer;
 }
 .insta {
-  background: url("/Rectangle\ 12.png");
+  background: url("./Rectangle\ 12.png");
   box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
   width: 62.331px;
   height: 43.122px;
@@ -57,13 +57,13 @@ nav {
   flex-shrink: 0;
 }
 .facebook {
-  background: url("/image\ 5.png");
+  background: url("./image\ 5.png");
   width: 52px;
   height: 44px;
   flex-shrink: 0;
 }
 .whatsapp {
-  background: url("/image\ 4.png");
+  background: url("./image\ 4.png");
   width: 47px;
   height: 51px;
   flex-shrink: 0;
@@ -79,7 +79,7 @@ nav {
     rgba(0, 0, 0, 0.5) 100%
   );
   box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
-  background: url("/pizza1\ 1.png"), lightgray 50% / cover no-repeat;
+  background: url("./pizza1\ 1.png"), lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
@@ -162,7 +162,7 @@ hr {
       rgba(0, 0, 0, 0) 74.48%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("/dough-3082589_1920\ 1.png"), lightgray 50% / cover no-repeat;
+    url("./dough-3082589_1920\ 1.png"), lightgray 50% / cover no-repeat;
 }
 .aboutsection1 > hr {
   background: #b62828;
@@ -302,7 +302,7 @@ footer {
 footer > .group {
   width: 202.795px;
   height: 148.962px;
-  background: url("/Group.png");
+  background: url("./Group.png");
 }
 
 footer > .idmail {
